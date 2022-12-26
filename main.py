@@ -1,13 +1,14 @@
+from bot_token import token
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import Command
 from core.handlers.functions import func_start, func_eho, func_help
-from core.handlers.reg import func_reg, reg_check , func_empl, func_sup
+from core.handlers.reg import func_reg, reg_check, func_empl, func_sup
 from core.handlers.commands import func_commands
 import asyncio
 import logging
 
 
-TOKEN = "5608897990:AAGcJMXg23yzzhY1M-7Og1v5e3pqWuMk6W0"
+TOKEN = token
 dp = Dispatcher()
 
 
