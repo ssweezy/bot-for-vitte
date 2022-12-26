@@ -7,7 +7,7 @@ from core.handlers.commands import func_commands
 import asyncio
 import logging
 
-
+D
 TOKEN = token
 dp = Dispatcher()
 
